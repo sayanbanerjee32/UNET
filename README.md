@@ -26,10 +26,12 @@ Important features of model architecture:
 3.  Loss function: Dice loss
 
 ### Performance
-- Pixcel accuracy:
-- IoU Metric: 
+- Pixcel accuracy: 89%
+- IoU Metric: 72%
 
 ### Output
+![image](https://github.com/user-attachments/assets/93a956ca-9242-412b-8e39-b4902714ec5e)
+
 
 ## Experiment3: StrConv+Tr+CE - [notebook](https://github.com/sayanbanerjee32/UNET/blob/main/UNET_StrConv_TR_CE.ipynb)
 Important features of model architecture:
