@@ -8,17 +8,22 @@
 ## Experiment1: MP+Tr+CE - [notebook](https://github.com/sayanbanerjee32/UNET/blob/main/UNET_MP_TR_CE.ipynb)
 
 Important features of model architecture:
-1.  
+1.  Method of reducing feature size in encoder: MaxPooling
+2.  Method of increasing feature size in decoder: Transpose Convolution
+3.  Loss function: Cross Entropy
 
 ### Performance
-- Pixcel accuracy:
-- IoU Metric: 
+- Pixcel accuracy: 90%
+- IoU Metric: 75%
 
 ### Output
+![image](https://github.com/user-attachments/assets/084ca21e-316a-4a5d-aa64-40550fcab88b)
 
 ## Experiment2: MP+Tr+Dice Loss - [notebook](https://github.com/sayanbanerjee32/UNET/blob/main/UNET_MP_TR_DiceLoss.ipynb)
 Important features of model architecture:
-1.  
+1.  Method of reducing feature size in encoder: MaxPooling
+2.  Method of increasing feature size in decoder: Transpose Convolution
+3.  Loss function: Dice loss
 
 ### Performance
 - Pixcel accuracy:
@@ -28,7 +33,9 @@ Important features of model architecture:
 
 ## Experiment3: StrConv+Tr+CE - [notebook](https://github.com/sayanbanerjee32/UNET/blob/main/UNET_StrConv_TR_CE.ipynb)
 Important features of model architecture:
-1.  
+1.  Method of reducing feature size in encoder: Strided Convolution
+2.  Method of increasing feature size in decoder: Transpose Convolution
+3.  Loss function: Cross Entropy
 
 ### Performance
 - Pixcel accuracy:
@@ -38,7 +45,9 @@ Important features of model architecture:
 
 ## Experiment4: StrConv+Ups+Dice Loss - [notebook](https://github.com/sayanbanerjee32/UNET/blob/main/UNET_StrConv_UpSamp_DiceLoss.ipynb)
 Important features of model architecture:
-1.  
+1.  Method of reducing feature size in encoder: Strided Convolution
+2.  Method of increasing feature size in decoder: Upsampling
+3.  Loss function: Dice loss
 
 ### Performance
 - Pixcel accuracy:
