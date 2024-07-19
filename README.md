@@ -40,10 +40,12 @@ Important features of model architecture:
 3.  Loss function: Cross Entropy
 
 ### Performance
-- Pixcel accuracy:
-- IoU Metric: 
+- Pixcel accuracy: 90%
+- IoU Metric: 75%
 
 ### Output
+![image](https://github.com/user-attachments/assets/3312f7b5-56a1-43dc-965e-828beb3ab247)
+
 
 ## Experiment4: StrConv+Ups+Dice Loss - [notebook](https://github.com/sayanbanerjee32/UNET/blob/main/UNET_StrConv_UpSamp_DiceLoss.ipynb)
 Important features of model architecture:
@@ -52,7 +54,8 @@ Important features of model architecture:
 3.  Loss function: Dice loss
 
 ### Performance
-- Pixcel accuracy:
-- IoU Metric: 
+- Pixcel accuracy: 90%
+- IoU Metric: 76%
 
 ### Output
+![image](https://github.com/user-attachments/assets/8538dace-86ae-4328-ad5f-3c6a87197643)
