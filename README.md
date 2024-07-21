@@ -1,6 +1,6 @@
 # UNET
 
-- The model Architecture is copied abd cnverted into Pytorch from the this [medium article](https://medium.com/geekculture/u-net-implementation-from-scratch-using-tensorflow-b4342266e406)
+- The model Architecture is copied and converted into Pytorch from the this [medium article](https://medium.com/geekculture/u-net-implementation-from-scratch-using-tensorflow-b4342266e406)
 - The data download, pre-processing and training and testing function are directly copied from this [Kaggle notebook](https://www.kaggle.com/code/dhruv4930/oxford-iiit-pets-segmentation-using-pytorch)
 - Dice loss implemented on top of these for experiment 2 and 4
 
@@ -13,7 +13,7 @@ Important features of model architecture:
 3.  Loss function: Cross Entropy
 
 ### Performance
-- Pixcel accuracy: 90%
+- Pixel accuracy: 90%
 - IoU Metric: 75%
 
 ### Output
@@ -26,7 +26,7 @@ Important features of model architecture:
 3.  Loss function: Dice loss
 
 ### Performance
-- Pixcel accuracy: 89%
+- Pixel accuracy: 89%
 - IoU Metric: 72%
 
 ### Output
@@ -40,7 +40,7 @@ Important features of model architecture:
 3.  Loss function: Cross Entropy
 
 ### Performance
-- Pixcel accuracy: 90%
+- Pixel accuracy: 90%
 - IoU Metric: 75%
 
 ### Output
@@ -54,7 +54,7 @@ Important features of model architecture:
 3.  Loss function: Dice loss
 
 ### Performance
-- Pixcel accuracy: 90%
+- Pixel accuracy: 90%
 - IoU Metric: 76%
 
 ### Output
